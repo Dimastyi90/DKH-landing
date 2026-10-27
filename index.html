@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика садика</title>
+</head>
+<body>
+<header class="header">
+    <div class="header__overlay">
+
+        <a href="#logo" class="logo" id="logo">
+            <img src="./img/logo 2.jpg" alt="Digital Kids Hub">
+        </a>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Заняття</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#reviewForm">Відгуки</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+  <section class="conteiner hero">
+    <h1 id="about"> Про нас! </h1>
+    <p>БО «Благодійний фонд Євгена Пивоварова» працює з 2020 року. Місія Фонду визначена як відновлення людської гідності, повернення відчуття безпеки, стабільності та віри в майбутнє. Діяльність Фонду охоплює допомогу закладам охорони здоров’я, соціальним установам, підтримку дітей та молоді, розвиток культури та освіти, а також гуманітарну допомогу.
+    </p>
+  </section>
+<section class="features">
+    <div class="conteiner">
+        <h2 class="section-title">Чому саме обирають нас</h2>
+        <div class="features-flex">
+            <div class="features-card">
+                <h3>Готова інфраструктура</h3>
+                <p>Проєкт спирається на діючий Digital Kids Hub у Роганській громаді: є відремонтоване приміщення, обладнання, укриття, сонячна генерація та сформована аудиторія дітей і батьків.
+                </p>
+            </div>
+            <div class="features-card">
+                <h3>Підтримка соціальних служб</h3>
+                <p>Фонд співпрацює з Центром надання соціальних послуг Роганської селищної ради, що дозволяє ефективно залучати сім'ї та передавати складні випадки профільним фахівцям. </p>
+            </div>
+            <div class="features-card">
+                <h3>Досвідчена команда фасилітаторів</h3>
+                <p>У проєкті працюють сертифіковані фахівці з досвідом психосоціальної підтримки, інклюзивного середовища, взаємодії з батьками та ведення звітності..</p>
+            </div>
+            <div class="features-card">
+                <h3>Безпека та автономність</h3>
+                <p>Приміщення хабу обладнане надійним укриттям та підключене до сонячної генерації, що забезпечує безперервну роботу навіть під час відключень електроенергії. </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="products">
+    <div class="conteiner">
+        <h2 class="section-title">Наші пропозиції!
+        </h2>
+        <div class="product-grid">
+            <article class="card">
+                <img src="./img/для карточки 1.jpg" alt="1">
+                <h3>Цифрова грамотність та програмування</h3>
+                <p>Заняття для дітей віком від 3 до 16 років. Вивчення основ програмування, кібербезпеки, логічного та алгоритмічного мислення у безпечному просторі..</p>
+            </article>
+              <article class="card">
+                <img src="./img/для карточки 2.jpg" alt="2">
+                <h3>Психосоціальна підтримка</h3>
+                <p>Професійні фасилітатори допомагають дітям справлятися зі стресом, розвивати навички саморегуляції, комунікації та командної взаємодії через творчі та інтерактивні заняття.</p>
+            </article>
+              <article class="card">
+                <img src="./img/для карточки 3.jpg" alt="3">
+                <h3>Простір для батьків та сімей</h3>
+                <p>Спеціально облаштована кімната для батьків та опікунів. Тут проходять тематичні зустрічі, консультаційні дні, спільні активності та підтримка від соціальних служб.</p>
+            </article>
+              <article class="card">
+                <img src="./img/для карточки 4.jpg" alt="4">
+                <h3>Виїзні освітні заходи</h3>
+                <p>Мобільні заняття та творчі активності у населених пунктах громади (Докучаєвське, Хроли та інші) для дітей, яким складно регулярно відвідувати стаціонарний хаб.</p>
+            </article>
+        </div>
+    </div>
+
+</section>
+<section class="gallery" id="gallery">
+    <div class="conteiner">
+        <h2 class="section-title">Галерея</h2>
+        <div class="gallery-grid">
+            <img src="./img/галеря 1.jpg" alt="Gallery Image 1">
+            <img src="./img/галеря 2.jpg" alt="Gallery Image 2">
+            <img src="./img/галеря 3.jpg" alt="Gallery Image 3">
+            <img src="./img/галеря 4.jpg" alt="Gallery Image 4">
+            <img src="./img/галеря 5.jpg" alt="Gallery Image 5">
+            <img src="./img/галерея 6.jpg" alt="Gallery Image 6">
+        </div>
+    </div>
+  </section>
+   <section class="reviews-section">
+  <h2>Отзывы наших клиентов</h2>
+
+  <!-- Форма для добавления отзыва -->
+  <form class="review-form" id="reviewForm">
+    <h3>Оставить отзыв</h3>
+    
+    <div class="form-group">
+      <label for="userName">Ваше имя:</label>
+      <input type="text" id="userName" required placeholder="Введите ваше имя">
+    </div>
+
+    <div class="form-group">
+      <label for="userRating">Оценка:</label>
+      <select id="userRating" required>
+        <option value="5">⭐⭐⭐⭐⭐ (5/5)</option>
+        <option value="4">⭐⭐⭐⭐ (4/5)</option>
+        <option value="3">⭐⭐⭐ (3/5)</option>
+        <option value="2">⭐⭐ (2/5)</option>
+        <option value="1">⭐ (1/5)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="userComment">Ваш отзыв:</label>
+      <textarea id="userComment" rows="4" required placeholder="Напишите ваш отзыв..."></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Отправить отзыв</button>
+  </form>
+
+  <!-- Список, куда будут добавляться отзывы -->
+  <div class="reviews-list" id="reviewsList">
+    <!-- Пример готового отзыва -->
+    <div class="review-card">
+      <div class="review-header">
+        <strong class="review-author">Ольга</strong>
+        <span class="review-rating">⭐⭐⭐⭐⭐</span>
+      </div>
+      <p class="review-text">Отличный сервис и очень вкусный кофе! Обязательно вернусь еще.</p>
+      <span class="review-date">28.10.2026</span>
+    </div>
+  </div>
+</section>
+ <!-- 7. ПІДВАЛ (FOOTER / КОНТАКТИ) -->
+  <footer id="contacts" class="footer">
+    <div class="container footer__content">
+      <div class="footer__col">
+        <a href="#nav"class="logo"><img src="./img/logo 2.jpg" alt="logo"></a>
+        <p>Адреса: вул. Харківська, 1, Харків</p>
+        <p>Тел: +380 99 123 4567</p>
+      </div>
+      <div class="footer__col">
+        <h4>Навігація</h4>
+        <a href="#about">Про нас</a><br>
+        <a href="#menu">Меню</a>
+      </div>
+      <div class="footer__col">
+        <h4>Соцмережі</h4>
+        <a href="#">Instagram</a> | <a href="#">Telegram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Усі права захищені.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
